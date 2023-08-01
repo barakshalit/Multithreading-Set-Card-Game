@@ -4,6 +4,12 @@ This project supports 2 players mode and Player VS PC aswell.
 
 The goal of the assignment is to practice concurrent programming on Java 8 environment, and get basic experience with unit testing.
 
+
+
+
+
+
+
 ## Introduction
 In the following assignment we were required to implement a simple version of the game “Set”.
 A description of the original game can be found here: [Set Card Game](https://en.wikipedia.org/wiki/Set_(card_game)). For reference only, there
@@ -42,12 +48,14 @@ The possible values of the features are:
 
 For example:
 
-![image](https://github.com/barakshalit/Multithreading-Set-Card-Game/assets/76451972/9d88fef3-7cdf-42b1-a900-e46b169dabfe)
+![image](https://github.com/barakshalit/Multithreading-Set-Card-Game/assets/76451972/a81fd385-f9d4-4124-b081-37efc8476f58)
+
 
 Example1: these 3 cards do form a set, because the shadings of the three cards are all the same,
 while the numbers, the colors, and the shapes are all different.
 
-![image](https://github.com/barakshalit/Multithreading-Set-Card-Game/assets/76451972/26f4201b-aa6f-4e2c-a96a-6f2bc45184a3)
+![image](https://github.com/barakshalit/Multithreading-Set-Card-Game/assets/76451972/07aff4e4-c7bf-4140-8a30-604b556cf5d0)
+
 
 Example 2: these 3 cards do not form a set (although the numbers of the three cards are all the same,
 and the colors, and shapes are all different, only two cards have the same shading).
@@ -73,7 +81,8 @@ either on table or in the deck). When there is no legal set left, the game will 
 with the most points will be declared as the winner!
 
 Each player controls 12 unique keys on the keyboard as follows. The default keys are:
-![image](https://github.com/barakshalit/Multithreading-Set-Card-Game/assets/76451972/8e1142b5-ca4a-4838-b1f8-127301169117)
+![image](https://github.com/barakshalit/Multithreading-Set-Card-Game/assets/76451972/ed4c5261-155a-43fc-b8cc-99f923ef4748)
+
 
 
 The keys layout is the same as the table's cards slots (3x4), and each key press dispatches the
@@ -164,7 +173,8 @@ this into consideration.
 
 The UI class opens a new window on screen with the following components:
 
-![image](https://github.com/barakshalit/Multithreading-Set-Card-Game/assets/76451972/0581d059-3119-4bc8-a9c7-4bb3e219eb8e)
+![image](https://github.com/barakshalit/Multithreading-Set-Card-Game/assets/76451972/518504d5-6b71-49b6-aaf0-84c382653c4b)
+
 
 
 The configuration settings of the game reside in the file config.properties and is loaded into the
@@ -209,7 +219,8 @@ for convenience).
 Following is a diagram of the general flow of the program3
 Note that this diagram only describes the general flow. It does not address how the synchronization was handled, graphic display updates and such.
 
-![image](https://github.com/barakshalit/Multithreading-Set-Card-Game/assets/76451972/2269167f-a633-4c45-9c23-e029ab0d85a9)
+![image](https://github.com/barakshalit/Multithreading-Set-Card-Game/assets/76451972/2793ebe6-b5c4-4a34-aa0e-a0c632b938d1)
+
 
 #### Building with Maven
 In this assignment i use Maven as my build tool.
