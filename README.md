@@ -5,6 +5,7 @@ This project supports 2 players mode and Player VS PC aswell.
 The goal of the assignment is to practice concurrent programming on Java 8 environment, and get basic experience with unit testing.
 
 
+![ezgif com-video-to-gif](https://github.com/barakshalit/Multithreading-Set-Card-Game/assets/76451972/9e2b828c-59fd-46d0-879f-6f3139774871)
 
 
 
